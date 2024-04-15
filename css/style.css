@@ -27,12 +27,19 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+*{
+  font-family: "Lilita One";
+}
 html,
 body {
   height: 100%;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lilita One", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+
 
 h1,
 h2,
@@ -43,7 +50,7 @@ h6 {
   margin: 0;
   color: #111111;
   font-weight: 400;
-  font-family: "Play", sans-serif;
+  font-family: "Lilita One", sans-serif;
 }
 
 h1 {
